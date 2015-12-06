@@ -11,3 +11,6 @@ var MovieSchema = new mongoose.Schema({
     required: true
   }
 });
+
+// Export the model schema
+module.exports = MovieSchema
